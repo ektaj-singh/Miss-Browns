@@ -16,11 +16,11 @@
   }
 
   :root {
-    --main-color: #bbccde;
-    --second-color: #bbccde;
+    --main-color: #EDE8D0;
+    --second-color: #EDE8D0;
     --text-color: #000000;
-    --bg-color: #fff;
-    background-color: #bbccde;
+    --bg-color: #EDE8D0;
+    background-color: #EDE8D0;
   }
 
   section {
@@ -190,8 +190,8 @@
   .catering img {
     width: 25%;
     height: 45%;
-    object-fit:cover;
-    object-position:right;
+    object-fit:contain;
+    object-position:center;
     padding: 1px;
     border-radius: 0.5rem;
   }
